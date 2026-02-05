@@ -4,7 +4,7 @@ from rest_framework.request import Request
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from .serializers import UserWriteSerializer
-from .services import UserService, TokenService
+from .services import UserService, TokenService, delete_cookies
 
 
 class RegisterUserAPIView(APIView):
@@ -55,3 +55,12 @@ class CustomTokenRefreshView(TokenRefreshView):
 
         service = TokenService(jwt_token)
         return service.refresh_token(response)
+
+
+class TokenClearView(APIView):
+    def post(self, request: Request, *args, **kwargs) -> Response:
+        response = Response(
+            data={"detail": "Logout successful."},
+            status=status.HTTP_200_OK
+        )
+        return delete_cookies(response)

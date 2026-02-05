@@ -61,3 +61,9 @@ class TokenService:
             httponly=self.httponly,
             samesite=self.samesite,
         )
+
+
+def delete_cookies(response: Response) -> Response:
+    response.delete_cookie("access_token")
+    response.delete_cookie("refresh_token")
+    return response
