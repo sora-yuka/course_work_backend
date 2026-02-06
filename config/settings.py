@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     # Interlan packages
-    'apps.users'
+    'apps.users',
+    'apps.inventory',
 ]
 
 MIDDLEWARE = [
