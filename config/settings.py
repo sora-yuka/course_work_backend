@@ -56,6 +56,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -139,12 +140,11 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # Rest framework settings
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        # Use django's standard auth permissions, or allow read-only access for unauthenticated users.
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
-
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        # Use cookie authentication instead of default rest_authentication.
+        'apps.users.authentication.CookiesJWTAuthentication',
     ],
 }
 
@@ -196,3 +196,9 @@ SIMPLE_JWT = {
     "REVOKE_TOKEN_CLAIM": "hash_password",
     "CHECK_USER_IS_ACTIVE": True,
 }
+
+CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS').split()
+
+CORS_ALLOW_CREDENTIALS = config('CORS_ALLOW_CREDENTIALS')
+
+COOKIE_SECURE = config('COOKIE_SECURE')

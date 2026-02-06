@@ -64,3 +64,11 @@ class TokenClearView(APIView):
             status=status.HTTP_200_OK
         )
         return delete_cookies(response)
+
+
+class UserPlaceholder(APIView):
+    def get(self, request: Request, *args, **kwargs) -> Response:
+        return Response(
+            data={"detail": "User test api call."},
+            status=status.HTTP_200_OK
+        )

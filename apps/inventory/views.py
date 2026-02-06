@@ -4,30 +4,35 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework import viewsets, mixins
 from rest_framework.views import APIView
-from .models import Item
-from .serializers import ItemSerializer
+from rest_framework.generics import ListAPIView
+from .services import ItemService
 
 
 class ReadOnlyItemViewSet(mixins.ListModelMixin,
                           mixins.RetrieveModelMixin,
                           viewsets.GenericViewSet):
-    queryset = Item.objects.all()
-    serializer_class = ItemSerializer
+    queryset = ItemService.get_all_objects()
+    serializer_class = ItemService.read_serializer_class
 
 
 class WriteItemViewSet(mixins.CreateModelMixin,
                        mixins.UpdateModelMixin,
                        mixins.DestroyModelMixin,
                        viewsets.GenericViewSet):
-    queryset = Item.objects.all()
-    serializer_class = ItemSerializer
+    queryset = ItemService.get_all_objects()
+    serializer_class = ItemService.write_serializer_class
 
 
-class InventoryAPIView(APIView):
-    permission_classes = [permissions.AllowAny]
+class StockOnlyItemView(ListAPIView):
+    queryset = ItemService.get_all_stock()
+    serializer_class = ItemService.read_serializer_class
 
-    def get(self, request: Request, *args, **kwargs) -> Response:
-        return Response(
-            data={"detail": "Inventory test api call"},
-            status=status.HTTP_200_OK,
-        )
+
+class ShowcaseOnlyItemView(ListAPIView):
+    queryset = ItemService.get_all_showcase()
+    serializer_class = ItemService.read_serializer_class
+
+
+class SoldOnlyItemView(ListAPIView):
+    queryset = ItemService.get_all_sold()
+    serializer_class = ItemService.read_serializer_class

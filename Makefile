@@ -4,3 +4,6 @@ r:
 m:
 	./manage.py makemigrations
 	./manage.py migrate
+
+up:
+	./manage.py loaddata internal/fixture/users.json

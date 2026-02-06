@@ -1,13 +1,15 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import ReadOnlyItemViewSet, WriteItemViewSet, InventoryAPIView
+from . import views
 
 router = DefaultRouter()
-router.register("create", ReadOnlyItemViewSet, "read-only inventory")
-router.register("read", WriteItemViewSet, "write inventory")
+router.register("read", views.ReadOnlyItemViewSet, "write inventory")
+router.register("create", views.WriteItemViewSet, "read-only inventory")
 
 
 urlpatterns = [
-    path("test/", InventoryAPIView.as_view(), name="get_inventory"),
+    path("stock/", views.StockOnlyItemView.as_view()),
+    path("showcase/", views.ShowcaseOnlyItemView.as_view()),
+    path("sold/", views.SoldOnlyItemView.as_view()),
     path("", include(router.urls)),
 ]
