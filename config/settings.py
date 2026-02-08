@@ -144,7 +144,10 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         # Use cookie authentication instead of default rest_authentication.
-        'apps.users.authentication.CookiesJWTAuthentication',
+        # 'apps.users.authentication.CookiesJWTAuthentication',
+
+        # Use JWT authentication instead of default django authentication.
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
 }
 
