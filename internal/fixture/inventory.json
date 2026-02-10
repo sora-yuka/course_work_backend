@@ -10,8 +10,98 @@
         "size": "17.5",
         "status": "SHOWCASE",
         "metal": "GOLD",
-        "price": "23000.00",
+        "price": "23000.0",
         "image_display": ""
+    }
+},
+{
+    "model": "inventory.item",
+    "pk": 2,
+    "fields": {
+        "unique_identification_number": "6432101234567891",
+        "stock_keeping_unit": "ER-202-Y-SAP-000",
+        "description": "Серьги из желтого золота с сапфирами",
+        "weight": "3.20",
+        "size": "0",
+        "status": "STOCK",
+        "metal": "GOLD",
+        "price": "45000.0",
+        "image_display": ""
+    }
+},
+{
+    "model": "inventory.item",
+    "pk": 3,
+    "fields": {
+        "unique_identification_number": "6432101234567892",
+        "stock_keeping_unit": "BR-915-S-NONE-190",
+        "description": "Серебряный браслет плетения Бисмарк",
+        "weight": "12.50",
+        "size": "19.0",
+        "status": "SHOWCASE",
+        "metal": "SILVER",
+        "price": "8500.0",
+        "image_display": ""
+    }
+},
+{
+    "model": "inventory.item",
+    "pk": 4,
+    "fields": {
+        "unique_identification_number": "6432101234567893",
+        "stock_keeping_unit": "RN-750-W-EMR-165",
+        "description": "Кольцо из белого золота с изумрудом",
+        "weight": "2.85",
+        "size": "16.5",
+        "status": "SOLD",
+        "metal": "GOLD",
+        "price": "62000.0",
+        "image_display": ""
+    }
+},
+{
+    "model": "inventory.item",
+    "pk": 5,
+    "fields": {
+        "unique_identification_number": "6432101234567894",
+        "stock_keeping_unit": "NC-585-R-DIA-450",
+        "description": "Колье из розового золота с бриллиантовой крошкой",
+        "weight": "7.40",
+        "size": "45.0",
+        "status": "RESERVED",
+        "metal": "GOLD",
+        "price": "11500.0",
+        "image_display": ""
+    }
+},
+{
+    "model": "inventory.item",
+    "pk": 6,
+    "fields": {
+        "unique_identification_number": "6432101234567895",
+        "stock_keeping_unit": "RN-950-P-DIA-180",
+        "description": "Платиновое обручальное кольцо",
+        "weight": "5.10",
+        "size": "18.0",
+        "status": "SHOWCASE",
+        "metal": "PLATINUM",
+        "price": "89000.0",
+        "image_display": ""
+    }
+},
+{
+    "model": "inventory.item",
+    "pk": 7,
+    "fields": {
+      "unique_identification_number": "6432101234567896",
+      "stock_keeping_unit": "PD-585-Y-TOP-000",
+      "description": "Подвеска с топазом",
+      "weight": "1.15",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "12400.0",
+      "image_display": ""
     }
 }
 ]
