@@ -6,7 +6,7 @@ class ItemReadSerializer(serializers.ModelSerializer):
     class Meta:
         model = Item
         fields = [
-            "id", "title", "unique_identification_number",
+            "id", "unique_identification_number",
             "stock_keeping_unit", "description", "weight", "size",
             "status", "metal", "price", "image_display",
         ]
@@ -16,7 +16,7 @@ class ItemWriteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Item
         fields = [
-            "title", "unique_identification_number",
+            "unique_identification_number",
             "stock_keeping_unit", "description", "weight", "size",
             "status", "metal", "price", "image_display",
         ]

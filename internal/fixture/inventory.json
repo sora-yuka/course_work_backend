@@ -1,0 +1,17 @@
+[
+{
+    "model": "inventory.item",
+    "pk": 1,
+    "fields": {
+        "unique_identification_number": "6432101234567890",
+        "stock_keeping_unit": "RN-585-W-DIA-175",
+        "description": "",
+        "weight": "4.15",
+        "size": "17.5",
+        "status": "SHOWCASE",
+        "metal": "GOLD",
+        "price": "23000.00",
+        "image_display": ""
+    }
+}
+]
