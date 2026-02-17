@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'drf_yasg',
+    'django_filters',
 
     # Interlan packages
     'apps.users',
@@ -149,6 +150,7 @@ REST_FRAMEWORK = {
         # Use JWT authentication instead of default django authentication.
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
 
 

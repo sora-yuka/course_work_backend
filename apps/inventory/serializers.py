@@ -8,7 +8,7 @@ class ItemReadSerializer(serializers.ModelSerializer):
         fields = [
             "id", "unique_identification_number",
             "stock_keeping_unit", "description", "weight", "size",
-            "status", "metal", "price", "image_display",
+            "status", "metal", "price",
         ]
 
 
@@ -18,5 +18,5 @@ class ItemWriteSerializer(serializers.ModelSerializer):
         fields = [
             "unique_identification_number",
             "stock_keeping_unit", "description", "weight", "size",
-            "status", "metal", "price", "image_display",
+            "status", "metal", "price",
         ]

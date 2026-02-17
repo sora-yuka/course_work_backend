@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from rest_framework import viewsets, mixins
 from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView
+from django_filters.rest_framework import DjangoFilterBackend
 from .services import ItemService
 
 
@@ -13,6 +14,9 @@ class ReadOnlyItemViewSet(mixins.ListModelMixin,
                           viewsets.GenericViewSet):
     queryset = ItemService.get_all_objects()
     serializer_class = ItemService.read_serializer_class
+    filter_backends = [DjangoFilterBackend]
+    search_fields = ["unique_identification_number", "stock_keeping_unit"]
+    filterset_fields = ["status", "metal"]
 
 
 class WriteItemViewSet(mixins.CreateModelMixin,
@@ -21,18 +25,3 @@ class WriteItemViewSet(mixins.CreateModelMixin,
                        viewsets.GenericViewSet):
     queryset = ItemService.get_all_objects()
     serializer_class = ItemService.write_serializer_class
-
-
-class StockOnlyItemView(ListAPIView):
-    queryset = ItemService.get_all_stock()
-    serializer_class = ItemService.read_serializer_class
-
-
-class ShowcaseOnlyItemView(ListAPIView):
-    queryset = ItemService.get_all_showcase()
-    serializer_class = ItemService.read_serializer_class
-
-
-class SoldOnlyItemView(ListAPIView):
-    queryset = ItemService.get_all_sold()
-    serializer_class = ItemService.read_serializer_class
