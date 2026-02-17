@@ -3,11 +3,9 @@ from django.utils.translation import gettext_lazy as _
 
 
 class ItemStatus(models.TextChoices):
-    STOCK = "STOCK", _("In stock") # Склад
-    SHOWCASE = "SHOWCASE", _("On display") # Ветрина
-    REPAIR = "REPAIR", _("To be repaired") # Ветрина
+    STOCK = "STOCK", _("In stock")
+    SHOWCASE = "SHOWCASE", _("On display")
     SOLD = "SOLD", _("Solded")
-    LOST = "LOST", _("Item lost")
 
 
 class MetalType(models.TextChoices):
