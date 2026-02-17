@@ -1,3 +1,4 @@
+from django.db.models import Count, Q
 from rest_framework import status
 from rest_framework import permissions
 from rest_framework.request import Request
@@ -25,3 +26,22 @@ class WriteItemViewSet(mixins.CreateModelMixin,
                        viewsets.GenericViewSet):
     queryset = ItemService.get_all_objects()
     serializer_class = ItemService.write_serializer_class
+
+
+class ItemCountList(ListAPIView):
+    queryset = ItemService.get_all_objects()
+    serializer_class = ItemService.read_serializer_class
+
+    def list(self, request: Request, *args, **kwargs) -> Response:
+        queryset = self.get_queryset()
+        stats = queryset.aggregate(
+            total=Count("id"),
+            stock=Count("id", filter=Q(status="STOCK")),
+            showcase=Count("id", filter=Q(status="SHOWCASE")),
+            sold=Count("id", filter=Q(status="SOLD")),
+        )
+        serializer = self.get_serializer(queryset, many=True)
+
+        return Response({
+            "stats": stats,
+        }, status=status.HTTP_200_OK)

@@ -8,5 +8,6 @@ router.register("write", views.WriteItemViewSet, "write inventory")
 
 
 urlpatterns = [
+    path("stats/", views.ItemCountList.as_view()),
     path("", include(router.urls)),
 ]
