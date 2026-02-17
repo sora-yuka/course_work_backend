@@ -1,0 +1,1402 @@
+[
+  {
+    "model": "inventory.item",
+    "pk": 1,
+    "fields": {
+      "unique_identification_number": "6432101234567801",
+      "stock_keeping_unit": "RN-585-W-DIA-175",
+      "description": "White gold diamond ring",
+      "weight": "4.15",
+      "size": "17.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "23000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 2,
+    "fields": {
+      "unique_identification_number": "6432101234567802",
+      "stock_keeping_unit": "ER-202-Y-SAP-000",
+      "description": "Yellow gold sapphire earrings",
+      "weight": "3.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "45000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 3,
+    "fields": {
+      "unique_identification_number": "6432101234567803",
+      "stock_keeping_unit": "PN-110-R-EMR-000",
+      "description": "Rose gold emerald pendant",
+      "weight": "1.50",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "18500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 4,
+    "fields": {
+      "unique_identification_number": "6432101234567804",
+      "stock_keeping_unit": "BR-777-S-NONE-190",
+      "description": "Silver chain bracelet",
+      "weight": "12.40",
+      "size": "19.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "4200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 5,
+    "fields": {
+      "unique_identification_number": "6432101234567805",
+      "stock_keeping_unit": "RN-333-W-TOP-165",
+      "description": "Blue topaz gold ring",
+      "weight": "2.80",
+      "size": "16.5",
+      "status": "SOLD",
+      "metal": "GOLD",
+      "price": "15600.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 6,
+    "fields": {
+      "unique_identification_number": "6432101234567806",
+      "stock_keeping_unit": "ER-505-W-DIA-000",
+      "description": "Diamond stud earrings",
+      "weight": "1.10",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "55000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 7,
+    "fields": {
+      "unique_identification_number": "6432101234567807",
+      "stock_keeping_unit": "RN-901-Y-RUB-180",
+      "description": "Gold ruby solitaire ring",
+      "weight": "5.45",
+      "size": "18.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "89000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 8,
+    "fields": {
+      "unique_identification_number": "6432101234567808",
+      "stock_keeping_unit": "NC-044-S-NONE-450",
+      "description": "Sterling silver necklace chain",
+      "weight": "8.20",
+      "size": "45.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "3100.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 9,
+    "fields": {
+      "unique_identification_number": "6432101234567809",
+      "stock_keeping_unit": "RN-222-P-DIA-170",
+      "description": "Platinum diamond engagement ring",
+      "weight": "6.10",
+      "size": "17.0",
+      "status": "SHOWCASE",
+      "metal": "PLATINUM",
+      "price": "98500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 10,
+    "fields": {
+      "unique_identification_number": "6432101234567810",
+      "stock_keeping_unit": "ER-888-R-PRL-000",
+      "description": "Gold pearl drop earrings",
+      "weight": "4.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "28000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 11,
+    "fields": {
+      "unique_identification_number": "6432101234567811",
+      "stock_keeping_unit": "RN-412-W-DIA-185",
+      "description": "Men's white gold band",
+      "weight": "7.20",
+      "size": "18.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "42000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 12,
+    "fields": {
+      "unique_identification_number": "6432101234567812",
+      "stock_keeping_unit": "ER-303-Y-AME-000",
+      "description": "Amethyst stud earrings",
+      "weight": "2.90",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "14500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 13,
+    "fields": {
+      "unique_identification_number": "6432101234567813",
+      "stock_keeping_unit": "PN-555-S-TOP-000",
+      "description": "Silver pendant with blue topaz",
+      "weight": "2.10",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "SILVER",
+      "price": "5600.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 14,
+    "fields": {
+      "unique_identification_number": "6432101234567814",
+      "stock_keeping_unit": "RN-101-R-DIA-160",
+      "description": "Rose gold promise ring",
+      "weight": "2.40",
+      "size": "16.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "34000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 15,
+    "fields": {
+      "unique_identification_number": "6432101234567815",
+      "stock_keeping_unit": "BR-202-W-DIA-180",
+      "description": "Diamond tennis bracelet",
+      "weight": "8.50",
+      "size": "18.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "95000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 16,
+    "fields": {
+      "unique_identification_number": "6432101234567816",
+      "stock_keeping_unit": "ER-112-S-NONE-000",
+      "description": "Sterling silver hoop earrings",
+      "weight": "5.60",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "2100.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 17,
+    "fields": {
+      "unique_identification_number": "6432101234567817",
+      "stock_keeping_unit": "RN-707-Y-CIT-175",
+      "description": "Gold ring with citrine",
+      "weight": "3.80",
+      "size": "17.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "19200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 18,
+    "fields": {
+      "unique_identification_number": "6432101234567818",
+      "stock_keeping_unit": "NC-999-W-DIA-500",
+      "description": "White gold diamond necklace",
+      "weight": "15.40",
+      "size": "50.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "99500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 19,
+    "fields": {
+      "unique_identification_number": "6432101234567819",
+      "stock_keeping_unit": "RN-404-P-SAP-180",
+      "description": "Platinum sapphire ring",
+      "weight": "6.80",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "PLATINUM",
+      "price": "92000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 20,
+    "fields": {
+      "unique_identification_number": "6432101234567820",
+      "stock_keeping_unit": "ER-667-R-GAR-000",
+      "description": "Rose gold garnet earrings",
+      "weight": "4.10",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "22400.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 21,
+    "fields": {
+      "unique_identification_number": "6432101234567821",
+      "stock_keeping_unit": "RN-551-W-DIA-195",
+      "description": "Men's signet ring with diamond",
+      "weight": "10.50",
+      "size": "19.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "65000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 22,
+    "fields": {
+      "unique_identification_number": "6432101234567822",
+      "stock_keeping_unit": "BR-105-S-NONE-210",
+      "description": "Men's silver chunky bracelet",
+      "weight": "25.00",
+      "size": "21.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "8500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 23,
+    "fields": {
+      "unique_identification_number": "6432101234567823",
+      "stock_keeping_unit": "ER-901-Y-DIA-000",
+      "description": "Yellow gold diamond dangles",
+      "weight": "3.80",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "72000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 24,
+    "fields": {
+      "unique_identification_number": "6432101234567824",
+      "stock_keeping_unit": "RN-229-R-RUB-170",
+      "description": "Rose gold large ruby ring",
+      "weight": "4.90",
+      "size": "17.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "51000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 25,
+    "fields": {
+      "unique_identification_number": "6432101234567825",
+      "stock_keeping_unit": "PN-332-W-SAP-000",
+      "description": "White gold sapphire cross",
+      "weight": "2.30",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "12800.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 26,
+    "fields": {
+      "unique_identification_number": "6432101234567826",
+      "stock_keeping_unit": "RN-004-S-CZ-165",
+      "description": "Silver cubic zirconia ring",
+      "weight": "2.10",
+      "size": "16.5",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "1400.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 27,
+    "fields": {
+      "unique_identification_number": "6432101234567827",
+      "stock_keeping_unit": "ER-415-W-EMR-000",
+      "description": "Emerald drop earrings",
+      "weight": "5.20",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "99000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 28,
+    "fields": {
+      "unique_identification_number": "6432101234567828",
+      "stock_keeping_unit": "NC-221-Y-NONE-600",
+      "description": "Long yellow gold chain",
+      "weight": "12.80",
+      "size": "60.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "58000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 29,
+    "fields": {
+      "unique_identification_number": "6432101234567829",
+      "stock_keeping_unit": "RN-882-R-TOP-185",
+      "description": "Rose gold blue topaz ring",
+      "weight": "3.50",
+      "size": "18.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "21000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 30,
+    "fields": {
+      "unique_identification_number": "6432101234567830",
+      "stock_keeping_unit": "ER-112-P-DIA-000",
+      "description": "Platinum diamond stud earrings",
+      "weight": "7.50",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "PLATINUM",
+      "price": "99900.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 31,
+    "fields": {
+      "unique_identification_number": "6432101234567831",
+      "stock_keeping_unit": "RN-111-W-DIA-170",
+      "description": "Classic white gold wedding band",
+      "weight": "3.10",
+      "size": "17.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "19000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 32,
+    "fields": {
+      "unique_identification_number": "6432101234567832",
+      "stock_keeping_unit": "RN-112-W-DIA-180",
+      "description": "Plain white gold wedding band",
+      "weight": "4.20",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "24000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 33,
+    "fields": {
+      "unique_identification_number": "6432101234567833",
+      "stock_keeping_unit": "ER-444-Y-CZ-000",
+      "description": "Gold earrings with cubic zirconia",
+      "weight": "2.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "12000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 34,
+    "fields": {
+      "unique_identification_number": "6432101234567834",
+      "stock_keeping_unit": "PN-909-S-NONE-000",
+      "description": "Sterling silver icon pendant",
+      "weight": "4.80",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "3500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 35,
+    "fields": {
+      "unique_identification_number": "6432101234567835",
+      "stock_keeping_unit": "BR-515-R-NONE-185",
+      "description": "Rose gold Bismarck bracelet",
+      "weight": "15.20",
+      "size": "18.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "68000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 36,
+    "fields": {
+      "unique_identification_number": "6432101234567836",
+      "stock_keeping_unit": "RN-662-Y-SAP-175",
+      "description": "Yellow gold sapphire solitaire",
+      "weight": "3.30",
+      "size": "17.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "32000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 37,
+    "fields": {
+      "unique_identification_number": "6432101234567837",
+      "stock_keeping_unit": "ER-771-W-DIA-000",
+      "description": "Diamond row earrings",
+      "weight": "4.70",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "85000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 38,
+    "fields": {
+      "unique_identification_number": "6432101234567838",
+      "stock_keeping_unit": "NC-101-S-NONE-550",
+      "description": "Men's silver necklace chain",
+      "weight": "22.00",
+      "size": "55.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "9200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 39,
+    "fields": {
+      "unique_identification_number": "6432101234567839",
+      "stock_keeping_unit": "RN-414-P-DIA-190",
+      "description": "Platinum men's band",
+      "weight": "12.00",
+      "size": "19.0",
+      "status": "SHOWCASE",
+      "metal": "PLATINUM",
+      "price": "99000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 40,
+    "fields": {
+      "unique_identification_number": "6432101234567840",
+      "stock_keeping_unit": "ER-202-R-TOP-000",
+      "description": "Rose gold topaz earrings",
+      "weight": "3.80",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "21500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 41,
+    "fields": {
+      "unique_identification_number": "6432101234567841",
+      "stock_keeping_unit": "RN-555-W-DIA-165",
+      "description": "White gold ring 0.5 ct diamond",
+      "weight": "3.10",
+      "size": "16.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "98000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 42,
+    "fields": {
+      "unique_identification_number": "6432101234567842",
+      "stock_keeping_unit": "ER-101-Y-NONE-000",
+      "description": "Yellow gold Congo earrings",
+      "weight": "2.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "11000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 43,
+    "fields": {
+      "unique_identification_number": "6432101234567843",
+      "stock_keeping_unit": "PN-707-S-CZ-000",
+      "description": "Silver cubic zirconia pendant",
+      "weight": "1.40",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "1200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 44,
+    "fields": {
+      "unique_identification_number": "6432101234567844",
+      "stock_keeping_unit": "RN-808-R-EMR-170",
+      "description": "Rose gold emerald ring",
+      "weight": "3.90",
+      "size": "17.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "47000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 45,
+    "fields": {
+      "unique_identification_number": "6432101234567845",
+      "stock_keeping_unit": "BR-303-W-NONE-190",
+      "description": "White gold bangle bracelet",
+      "weight": "11.20",
+      "size": "19.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "52000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 46,
+    "fields": {
+      "unique_identification_number": "6432101234567846",
+      "stock_keeping_unit": "ER-333-S-TOP-000",
+      "description": "Silver earrings with blue topaz",
+      "weight": "4.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "4800.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 47,
+    "fields": {
+      "unique_identification_number": "6432101234567847",
+      "stock_keeping_unit": "RN-909-Y-DIA-180",
+      "description": "Yellow gold classic diamond ring",
+      "weight": "2.70",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "31000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 48,
+    "fields": {
+      "unique_identification_number": "6432101234567848",
+      "stock_keeping_unit": "NC-505-W-NONE-450",
+      "description": "White gold curb chain",
+      "weight": "5.40",
+      "size": "45.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "24500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 49,
+    "fields": {
+      "unique_identification_number": "6432101234567849",
+      "stock_keeping_unit": "RN-221-P-EMR-175",
+      "description": "Platinum emerald cut ring",
+      "weight": "8.10",
+      "size": "17.5",
+      "status": "SHOWCASE",
+      "metal": "PLATINUM",
+      "price": "99500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 50,
+    "fields": {
+      "unique_identification_number": "6432101234567850",
+      "stock_keeping_unit": "ER-555-R-DIA-000",
+      "description": "Rose gold dangle diamond earrings",
+      "weight": "6.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "78000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 51,
+    "fields": {
+      "unique_identification_number": "6432101234567851",
+      "stock_keeping_unit": "RN-401-W-DIA-160",
+      "description": "Infinity diamond ring",
+      "weight": "2.20",
+      "size": "16.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "18000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 52,
+    "fields": {
+      "unique_identification_number": "6432101234567852",
+      "stock_keeping_unit": "BR-909-S-NONE-200",
+      "description": "Polished silver bracelet",
+      "weight": "18.00",
+      "size": "20.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "7200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 53,
+    "fields": {
+      "unique_identification_number": "6432101234567853",
+      "stock_keeping_unit": "ER-112-Y-PRL-000",
+      "description": "Akoya pearl gold studs",
+      "weight": "2.10",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "14000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 54,
+    "fields": {
+      "unique_identification_number": "6432101234567854",
+      "stock_keeping_unit": "RN-331-R-RUB-185",
+      "description": "Men's ruby signet ring",
+      "weight": "6.50",
+      "size": "18.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "54000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 55,
+    "fields": {
+      "unique_identification_number": "6432101234567855",
+      "stock_keeping_unit": "PN-222-W-DIA-000",
+      "description": "Diamond cluster pendant",
+      "weight": "1.80",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "29000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 56,
+    "fields": {
+      "unique_identification_number": "6432101234567856",
+      "stock_keeping_unit": "RN-009-S-NONE-170",
+      "description": "Simple silver band",
+      "weight": "3.50",
+      "size": "17.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "1800.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 57,
+    "fields": {
+      "unique_identification_number": "6432101234567857",
+      "stock_keeping_unit": "ER-808-W-SAP-000",
+      "description": "Sapphire cluster earrings",
+      "weight": "4.90",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "92000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 58,
+    "fields": {
+      "unique_identification_number": "6432101234567858",
+      "stock_keeping_unit": "NC-111-Y-NONE-500",
+      "description": "14k gold necklace chain",
+      "weight": "9.20",
+      "size": "50.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "42000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 59,
+    "fields": {
+      "unique_identification_number": "6432101234567859",
+      "stock_keeping_unit": "RN-772-P-DIA-180",
+      "description": "Matte finish platinum ring",
+      "weight": "9.50",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "PLATINUM",
+      "price": "94000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 60,
+    "fields": {
+      "unique_identification_number": "6432101234567860",
+      "stock_keeping_unit": "ER-101-R-GAR-000",
+      "description": "Garnet leverback earrings",
+      "weight": "3.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "18500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 61,
+    "fields": {
+      "unique_identification_number": "6432101234567861",
+      "stock_keeping_unit": "RN-112-W-DIA-175",
+      "description": "White gold half eternity ring",
+      "weight": "2.80",
+      "size": "17.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "38000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 62,
+    "fields": {
+      "unique_identification_number": "6432101234567862",
+      "stock_keeping_unit": "RN-113-W-DIA-185",
+      "description": "White gold full eternity ring",
+      "weight": "3.50",
+      "size": "18.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "42000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 63,
+    "fields": {
+      "unique_identification_number": "6432101234567863",
+      "stock_keeping_unit": "ER-205-Y-AME-000",
+      "description": "Yellow gold amethyst drops",
+      "weight": "4.10",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "16000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 64,
+    "fields": {
+      "unique_identification_number": "6432101234567864",
+      "stock_keeping_unit": "PN-101-S-NONE-000",
+      "description": "Zodiac sign silver pendant",
+      "weight": "2.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "1500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 65,
+    "fields": {
+      "unique_identification_number": "6432101234567865",
+      "stock_keeping_unit": "BR-404-R-NONE-195",
+      "description": "Solid gold curb bracelet",
+      "weight": "12.80",
+      "size": "19.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "56000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 66,
+    "fields": {
+      "unique_identification_number": "6432101234567866",
+      "stock_keeping_unit": "RN-552-Y-SAP-165",
+      "description": "Sapphire bezel set ring",
+      "weight": "2.90",
+      "size": "16.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "28500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 67,
+    "fields": {
+      "unique_identification_number": "6432101234567867",
+      "stock_keeping_unit": "ER-102-W-DIA-000",
+      "description": "Diamond cluster studs",
+      "weight": "1.50",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "42000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 68,
+    "fields": {
+      "unique_identification_number": "6432101234567868",
+      "stock_keeping_unit": "NC-202-S-NONE-400",
+      "description": "Silver snake chain necklace",
+      "weight": "6.20",
+      "size": "40.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "2800.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 69,
+    "fields": {
+      "unique_identification_number": "6432101234567869",
+      "stock_keeping_unit": "RN-333-P-DIA-175",
+      "description": "Platinum band with diamonds",
+      "weight": "7.40",
+      "size": "17.5",
+      "status": "SHOWCASE",
+      "metal": "PLATINUM",
+      "price": "97000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 70,
+    "fields": {
+      "unique_identification_number": "6432101234567870",
+      "stock_keeping_unit": "ER-111-R-TOP-000",
+      "description": "Blue topaz rose gold studs",
+      "weight": "4.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "24000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 71,
+    "fields": {
+      "unique_identification_number": "6432101234567871",
+      "stock_keeping_unit": "RN-501-W-DIA-170",
+      "description": "White gold crown ring",
+      "weight": "3.40",
+      "size": "17.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "31000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 72,
+    "fields": {
+      "unique_identification_number": "6432101234567872",
+      "stock_keeping_unit": "ER-301-Y-NONE-000",
+      "description": "Plain yellow gold earrings",
+      "weight": "3.10",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "14500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 73,
+    "fields": {
+      "unique_identification_number": "6432101234567873",
+      "stock_keeping_unit": "PN-505-S-CZ-000",
+      "description": "Silver heart pendant",
+      "weight": "1.90",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "1800.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 74,
+    "fields": {
+      "unique_identification_number": "6432101234567874",
+      "stock_keeping_unit": "RN-901-R-EMR-180",
+      "description": "Oval emerald rose gold ring",
+      "weight": "4.20",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "52000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 75,
+    "fields": {
+      "unique_identification_number": "6432101234567875",
+      "stock_keeping_unit": "BR-101-W-NONE-180",
+      "description": "White gold link bracelet",
+      "weight": "5.60",
+      "size": "18.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "26000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 76,
+    "fields": {
+      "unique_identification_number": "6432101234567876",
+      "stock_keeping_unit": "ER-202-S-TOP-000",
+      "description": "Silver topaz drop earrings",
+      "weight": "3.90",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "4200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 77,
+    "fields": {
+      "unique_identification_number": "6432101234567877",
+      "stock_keeping_unit": "RN-707-Y-DIA-190",
+      "description": "Gold signet ring with engraving",
+      "weight": "8.50",
+      "size": "19.0",
+      "status": "SOLD",
+      "metal": "GOLD",
+      "price": "58000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 78,
+    "fields": {
+      "unique_identification_number": "6432101234567878",
+      "stock_keeping_unit": "NC-303-W-NONE-500",
+      "description": "White gold anchor chain",
+      "weight": "6.80",
+      "size": "50.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "31000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 79,
+    "fields": {
+      "unique_identification_number": "6432101234567879",
+      "stock_keeping_unit": "RN-404-P-EMR-170",
+      "description": "Platinum emerald eternity band",
+      "weight": "9.10",
+      "size": "17.0",
+      "status": "SHOWCASE",
+      "metal": "PLATINUM",
+      "price": "99000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 80,
+    "fields": {
+      "unique_identification_number": "6432101234567880",
+      "stock_keeping_unit": "ER-333-R-DIA-000",
+      "description": "Gold hoop diamond earrings",
+      "weight": "5.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "62000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 81,
+    "fields": {
+      "unique_identification_number": "6432101234567881",
+      "stock_keeping_unit": "RN-111-W-DIA-165",
+      "description": "Solitaire diamond ring",
+      "weight": "2.50",
+      "size": "16.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "24000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 82,
+    "fields": {
+      "unique_identification_number": "6432101234567882",
+      "stock_keeping_unit": "BR-505-S-NONE-180",
+      "description": "Silver cuff bracelet",
+      "weight": "12.00",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "5200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 83,
+    "fields": {
+      "unique_identification_number": "6432101234567883",
+      "stock_keeping_unit": "ER-101-Y-PRL-000",
+      "description": "Yellow gold pearl drops",
+      "weight": "3.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "19000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 84,
+    "fields": {
+      "unique_identification_number": "6432101234567884",
+      "stock_keeping_unit": "RN-808-R-RUB-195",
+      "description": "Men's gold ruby ring",
+      "weight": "11.20",
+      "size": "19.5",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "72000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 85,
+    "fields": {
+      "unique_identification_number": "6432101234567885",
+      "stock_keeping_unit": "PN-333-W-DIA-000",
+      "description": "Teardrop diamond pendant",
+      "weight": "2.10",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "31000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 86,
+    "fields": {
+      "unique_identification_number": "6432101234567886",
+      "stock_keeping_unit": "RN-001-S-NONE-180",
+      "description": "Polished silver band",
+      "weight": "3.20",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "1600.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 87,
+    "fields": {
+      "unique_identification_number": "6432101234567887",
+      "stock_keeping_unit": "ER-505-W-SAP-000",
+      "description": "Sapphire stud white gold earrings",
+      "weight": "4.50",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "88000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 88,
+    "fields": {
+      "unique_identification_number": "6432101234567888",
+      "stock_keeping_unit": "NC-222-Y-NONE-450",
+      "description": "Gold rope chain",
+      "weight": "5.10",
+      "size": "45.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "23500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 89,
+    "fields": {
+      "unique_identification_number": "6432101234567889",
+      "stock_keeping_unit": "RN-999-P-DIA-185",
+      "description": "Heavy platinum diamond band",
+      "weight": "15.00",
+      "size": "18.5",
+      "status": "STOCK",
+      "metal": "PLATINUM",
+      "price": "99500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 90,
+    "fields": {
+      "unique_identification_number": "6432101234567890",
+      "stock_keeping_unit": "ER-707-R-GAR-000",
+      "description": "Garnet drop earrings gold",
+      "weight": "3.80",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "21000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 91,
+    "fields": {
+      "unique_identification_number": "6432101234567891",
+      "stock_keeping_unit": "RN-222-W-DIA-170",
+      "description": "White gold ring with small diamond",
+      "weight": "2.40",
+      "size": "17.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "14000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 92,
+    "fields": {
+      "unique_identification_number": "6432101234567892",
+      "stock_keeping_unit": "RN-223-W-DIA-180",
+      "description": "CZ solitaire white gold ring",
+      "weight": "3.10",
+      "size": "18.0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "17500.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 93,
+    "fields": {
+      "unique_identification_number": "6432101234567893",
+      "stock_keeping_unit": "ER-505-Y-AME-000",
+      "description": "Amethyst bezel earrings",
+      "weight": "4.20",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "19000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 94,
+    "fields": {
+      "unique_identification_number": "6432101234567894",
+      "stock_keeping_unit": "PN-111-S-NONE-000",
+      "description": "Silver cross necklace",
+      "weight": "3.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "2200.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 95,
+    "fields": {
+      "unique_identification_number": "6432101234567895",
+      "stock_keeping_unit": "BR-707-R-NONE-200",
+      "description": "Men's solid gold bracelet",
+      "weight": "18.50",
+      "size": "20.0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "82000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 96,
+    "fields": {
+      "unique_identification_number": "6432101234567896",
+      "stock_keeping_unit": "RN-777-Y-SAP-175",
+      "description": "Yellow gold sapphire and diamond ring",
+      "weight": "3.40",
+      "size": "17.5",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "34000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 97,
+    "fields": {
+      "unique_identification_number": "6432101234567897",
+      "stock_keeping_unit": "ER-303-W-DIA-000",
+      "description": "Diamond row white gold earrings",
+      "weight": "4.80",
+      "size": "0",
+      "status": "SHOWCASE",
+      "metal": "GOLD",
+      "price": "79000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 98,
+    "fields": {
+      "unique_identification_number": "6432101234567898",
+      "stock_keeping_unit": "NC-505-S-NONE-450",
+      "description": "Silver chain necklace 45cm",
+      "weight": "7.50",
+      "size": "45.0",
+      "status": "STOCK",
+      "metal": "SILVER",
+      "price": "3400.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 99,
+    "fields": {
+      "unique_identification_number": "6432101234567899",
+      "stock_keeping_unit": "RN-111-P-DIA-180",
+      "description": "Platinum band with solitaire diamond",
+      "weight": "8.20",
+      "size": "18.0",
+      "status": "SOLD",
+      "metal": "PLATINUM",
+      "price": "98000.0"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 100,
+    "fields": {
+      "unique_identification_number": "6432101234567900",
+      "stock_keeping_unit": "ER-999-R-TOP-000",
+      "description": "Rose gold topaz drop earrings",
+      "weight": "4.50",
+      "size": "0",
+      "status": "STOCK",
+      "metal": "GOLD",
+      "price": "26500.0"
+    }
+  }
+]

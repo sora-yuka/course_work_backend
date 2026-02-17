@@ -14,7 +14,7 @@ class Item(models.Model):
         default=choices.ItemStatus.STOCK
     )
     metal = models.CharField(max_length=20, choices=choices.MetalType)
-    price = models.DecimalField(max_digits=7, decimal_places=2)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
     image_display = models.ImageField(upload_to="items", null=True, blank=True)
 
     def __str__(self) -> str: return f"{self.unique_identification_number}, {self.stock_keeping_unit}"
