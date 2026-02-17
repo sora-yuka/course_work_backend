@@ -10,8 +10,7 @@
         "size": "17.5",
         "status": "SHOWCASE",
         "metal": "GOLD",
-        "price": "23000.0",
-        "image_display": ""
+        "price": "23000.0"
     }
 },
 {
@@ -25,8 +24,7 @@
         "size": "0",
         "status": "STOCK",
         "metal": "GOLD",
-        "price": "45000.0",
-        "image_display": ""
+        "price": "45000.0"
     }
 },
 {
