@@ -7,3 +7,4 @@ m:
 
 up:
 	./manage.py loaddata internal/fixture/users.json
+	./manage.py loaddata internal/fixture/hundred-item.json
